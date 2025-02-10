@@ -1,6 +1,6 @@
 # 🚀 OptiCode
 
-**OptiCode** is an AI-powered coding assistant designed to enhance developer productivity by offering features such as code optimization, error checking, formatting, and explanation. Built using **Next.js (React)** for the frontend and **FastAPI (Python)** for the backend, OptiCode integrates **Gemini AI**, **GPT-4**, and various code analysis tools.
+**OptiCode** is an AI-powered coding assistant designed to enhance developer productivity by offering features such as code optimization, error checking, formatting, and explanation. Built using **Next.js (React)** for the frontend and **FastAPI (Python)** for the backend, OptiCode integrates **Gemini AI**, and various code analysis tools.
 
 ---
 
@@ -24,14 +24,11 @@
 
 ### **Backend**
 - **Framework:** FastAPI (Python)
-- **AI Models:** Gemini AI 1.5, GPT-4 API
-- **Code Analysis:** Flake8, ESLint, Pylint, Bandit, SonarQube
-- **Database:** PostgreSQL
-- **WebSockets** for real-time communication
+- **AI Models:** Gemini AI 1.5 Flash Model
+
 
 ### **DevOps & Deployment**
-- **Docker & Kubernetes** for containerization & orchestration
-- **AWS Free Tier** (EC2, S3, Lambda) for cloud hosting
+- **Docker** for containerization 
 
 ---
 
