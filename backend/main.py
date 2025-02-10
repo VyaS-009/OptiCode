@@ -7,7 +7,13 @@ import code_checker
 import formatter
 import optimizer
 import explainer
+from dotenv import load_dotenv
+import os
 
+load_dotenv()  # Load environment variables from .env file
+api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key:
+    raise ValueError("GOOGLE_API_KEY is not set in the environment")
 # Logging setup
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)

@@ -2,7 +2,10 @@ import google.generativeai as genai
 import os
 import logging
 from fastapi import HTTPException
+from dotenv import load_dotenv
+import os
 
+load_dotenv()  # Load .env file
 # Initialize Gemini API
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
