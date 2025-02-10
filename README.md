@@ -88,7 +88,17 @@ The frontend will be available at **http://localhost:3000**.
 ---
 
 ## 📸 Screenshots
-![OptiCode UI](https://via.placeholder.com/800x400?text=OptiCode+UI+Screenshot)
+### Homepage/code-checker
+![Homepage Screenshot](OptiCode-Preview/Code_checker_page.png)
+
+### Code Optimization Feature
+![Code Optimization](OptiCode-Preview/optimizer_page.png)
+
+### Code Formatter Feature
+![Code Formatting](OptiCode-Preview/optimizer_page.png)
+
+### Code Explainer Feature
+![Code Explanation](OptiCode-Preview/optimizer_page.png)
 
 
 ---
