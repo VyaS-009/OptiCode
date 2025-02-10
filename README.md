@@ -47,6 +47,7 @@ OptiCode/
 │   ├── formatter.py
 │   ├── explainer.py
 │   ├── main.py
+│   ├── Dockerfile
 │
 │── frontend/    # Next.js frontend
 │   ├── app/      # Pages & Routes
@@ -56,6 +57,9 @@ OptiCode/
 │   ├── styles/   # Tailwind Global Styles
 │   ├── package.json
 │   └── next.config.js
+│   ├── Dockerfile
+│── docker-compose.yml
+│── .gitignore
 ```
 
 ---
@@ -76,6 +80,7 @@ source env/bin/activate  # On Windows, use 'env\Scripts\activate'
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
+The backend will be available at **http://localhost:8000**.
 
 ### **3️⃣ Frontend Setup**
 ```sh
@@ -119,7 +124,7 @@ This project is licensed under the **MIT License** – feel free to use and modi
 
 ## 📬 Contact
 🔹 **GitHub:** [VyaS-009](https://github.com/VyaS-009)  
-🔹 **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/vedavyas-viswanatham-3769a2219/)  
+🔹 **LinkedIn:** [vedavyas-viswanatham](https://www.linkedin.com/in/vedavyas-viswanatham-3769a2219/)  
 🔹 **Email:** vedavyas9990@gmail.com  
 
 ---
