@@ -95,10 +95,10 @@ The frontend will be available at **http://localhost:3000**.
 ![Code Optimization](OptiCode-Preview/optimizer_page.png)
 
 ### Code Formatter Feature
-![Code Formatting](OptiCode-Preview/optimizer_page.png)
+![Code Formatting](OptiCode-Preview/formatter_page.png)
 
 ### Code Explainer Feature
-![Code Explanation](OptiCode-Preview/optimizer_page.png)
+![Code Explanation](OptiCode-Preview/Explainer_page.png)
 
 
 ---
